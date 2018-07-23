@@ -1,0 +1,207 @@
+body {
+    background: #267257 url(StoreAssets/background.jpg) no-repeat fixed;
+    font-size: 60%;
+    padding: 0;
+    margin: 0;
+    background-size: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.headerWrap {
+    margin: 0;
+    padding: 1em;
+    background-image: url(StoreAssets/header2.jpg);
+    background-size: cover;
+    background-position-y: -30em;
+    border-bottom: 1px solid navy;
+}
+nav {
+    background-color: rgba(0, 74, 143, 0.25);
+    border: 0.5px solid black;
+    border-radius: 15px;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5em;
+    width: 100%;
+}
+nav ul {
+    border-radius: 15px;
+    margin-top: 0;
+    list-style: none;
+    display: block;
+    font-size: 14pt;
+}
+nav li{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    padding: 0.5em 0.5em 0;
+    border-radius: 20px;
+}
+#navLink {
+    padding: 0.1em;
+    font: 16pt bold white;
+}
+ a{
+    color: white;
+}
+#navInput {
+    border: none;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 0;
+    padding: 0.5em;
+}
+header h1 {
+    color:rgb(55, 143, 184);
+    font-size: 36pt;
+    text-shadow: 2px 2px 3px navy, -2px -2px 3px navy;
+    margin-left: 0.5em;
+}
+header h2 {
+    color:rgb(45, 117, 151);
+    font-size: 36pt;
+    text-shadow: 2px 2px 3px navy, -2px -2px 3px navy;
+    margin-left: 1.1em;
+    margin-top: -0.9em;
+}
+ul {
+    padding: .5em;
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+#ul1 {
+    width: 48%;
+    text-align: left;
+}
+#ul2 {
+    position: absolute;
+    display: inline-block;
+    width: 48%;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+#ul3 a{
+    font-size: 14pt;
+    text-decoration: none;
+    padding: 0.3em;
+}
+section {
+    display: block;
+    overflow: auto;
+}
+section #sidebar p {
+    color: white;
+}
+section h1 {
+    padding: 0.2em;
+    font-size: 24pt;
+    text-align: center;
+    margin-right: 3em;
+}
+#productbar {
+    float: left;
+    max-width: 65%;
+   margin-left: 7em;
+}
+#sidebar {
+    float: right;
+    max-width: 27%;
+    height: 975px;
+    box-shadow: 5px;
+    font-size: 12pt;
+    background-color: rgba(0, 191, 255,0.4);
+    padding: .8em;
+}
+#sidebar h1{
+    font-size: 24pt;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 3em;
+}
+.product {
+    float: left;
+    width: 250px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 1.0em;
+    background: #fff;
+    border: #ccc solid 3px;
+    border-radius: 1.2em;
+    overflow: hidden;
+    height: 400px;
+    width: 250px;
+}
+.product button{
+    margin-top: 2em;
+    z-index: 1;
+    border-radius: 5px; 
+}
+
+.foot {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 74, 143, 0.25);
+    border: 0.5px solid black;
+    height: 5em;
+    width: 100%;
+}
+.foot li {
+    margin-left: 2em;
+    padding: 0 1.5em 0 1.5em;
+}
+#insta {
+    height: 20px;
+    width: 20px;
+
+}
+#gmail {
+    height: 20px;
+    width: 20px;
+}
+.product img {
+    z-index: 0;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.product h2 {
+    margin-top: 100%;
+    z-index: 1;
+    font-size: 180%;
+}
+.product p {
+    z-index: 1;
+    font-size: 110%;
+}
+#product1 {
+    background: url(StoreAssets/bird\ feeder.jpg) no-repeat  top, white;
+    background-size: 175px 225px;
+}
+#product2 {
+    background: url(StoreAssets/hummingbird\ feeder.jpg) no-repeat  top, white;
+    background-size: 175px 225px;
+}
+#product3 {
+    background: url(StoreAssets/seed.jpg) no-repeat top, white;
+    background-size: 225px 225px;    
+}
+#product4 {
+    background: url(StoreAssets/guide.jpg) no-repeat  top, white;
+    background-size: 175px 225px;
+}
+#product5 {
+    background: url(StoreAssets/binos.jpg) no-repeat  top, white;
+        background-size: 175px 225px;
+}
+#product6 {
+    background: url(StoreAssets/speakers.jpg) no-repeat  top, white;
+    background-size: 175px 225px;
+}
+#birdlinks {
+    display: inline;
+}
